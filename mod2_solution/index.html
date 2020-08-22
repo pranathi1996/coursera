@@ -2,10 +2,87 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>First Assignment</title>
+	<link rel="stylesheet" href="css/style.css">
+	<style type="text/css">
+		p{
+			text-align: center;
+		}
+		.chi{
+			text-align: right;
+			border:2px solid black;
+			background-color: pink;
+		}
+		.be{
+			text-align: right;
+			border:2px solid black;
+			background-color: red;
+		}
+		.su{
+			text-align: right;
+			border:2px solid black;
+			background-color: yellow;
+		}
+		.chicken{
+			margin:5px white;
+			border: 2px solid black;
+			padding:5px;
+		}
+		.beef{
+			margin:5px white;
+			border:2px solid black;
+			padding:5px;
+		}
+		.sushi{
+			margin:5px white;
+			border:2px solid black;
+			padding:5px;
+		}
+
+
+		@media (min-width:992px){
+			.col-lg-1,.col-lg-2,.col-lg-3{
+				float:left;
+				border:2px solid black;
+			}
+			.col-lg-1{
+				width:33.33%;
+			}
+			.col-lg-2{
+				width:33.33%;
+			}
+			.col-lg-3{
+				width:33.33%;
+			}
+		}
+
+		@media (min-width:768px) and (max-width:991px){
+			.col-md-1,.col-md-2{
+				float:left;
+				width:33.33%;
+			}
+			.col-md-3{
+				width=100%;
+			}
+		}
+
+	</style>
 </head>
 <body>
-	<section>A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this.
+	<p>Our Menu</p>
+	<section class="chicken col-lg-1 col-md-1 col-sm-1">
+		<p class="chi">Chicken</p>
+		A chicken (Gallus gallus domesticus) is a kind of domesticated bird. It is raised in many places for its meat and eggs.They are usually kept by humans as livestock. Most breeds of chickens can fly for a short distance. Some sleep in trees if there are trees around.A male chicken is called a rooster or a cockerel. A female chicken is called a hen. A young chicken is called a chick. Like other female birds, hens lay eggs. The eggs hatch into chicks.When raising chickens, a farmer needs a chicken coop (like a little house) for the chickens to roost (sleep) in. They also need a run or yard where they can exercise, take dust baths, eat and drink. The chickens also need to be protected from predators such as foxes. Fences are often used for this.
+	</section>
+	<section class="beef col-lg-2 col-md-2 col-sm-2">
+		<p class="be">Beef</p>
+		Beef is the culinary name for meat from cattle, particularly skeletal muscle. Humans have been eating beef since prehistoric times.Beef is a source of protein and nutrients.Most beef skeletal muscle meat can be used as is by merely cutting into certain parts, such as roasts, short ribs or steak (filet mignon, sirloin steak, rump steak, rib steak, rib eye steak, hanger steak, etc.), while other cuts are processed (corned beef or beef jerky). Trimmings, on the other hand, are usually mixed with meat from older, leaner (therefore tougher) cattle, are ground, minced or used in sausages.
+	</section>
+	<section class="sushi col-lg-3 col-md-3 col-sm-3">
+		<p class="su">Sushi</p>
+		Sushi is a popular Japanese dish made from seasoned rice with fish, egg, or vegetables. A sushi roll is shaped inside a thin sheet of seaweed.Sushi comes from a Japanese word meaning "sour rice," and it's the rice that's at the heart of sushi, even though most Americans think of it as raw fish. In fact, it's the word sashimi that refers to a piece of raw fish. When you eat sushi, you might eat cooked egg and rice, avocado and rice, or cooked fish and rice, as well as sushi made with raw fish and rice.
 	</section>
 </body>
 </html>
