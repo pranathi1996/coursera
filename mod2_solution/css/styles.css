@@ -4,26 +4,36 @@
 		}
 		.chi{
 			text-align: right;
+			font-size: 20px;
 			border:2px solid black;
 			background-color: pink;
-			font-size: 20px;
-			box-sizing: content-box;	}
+			float:right;
+			padding:5px;
+			margin: 0;
+		}
 		.be{
 			text-align: right;
 			border:2px solid black;
 			background-color: red;
 			font-size: 20px;
+			float:right;
+			padding:5px;
+			margin: 0;
 		}
 		.su{
 			text-align: right;
 			border:2px solid black;
 			background-color: yellow;
 			font-size: 20px;
+			float:right;
+			padding:5px;
+			margin: 0;
 		}
 		.chicken{
 			margin:10px white;
-			border: 2px solid black;
+			border:2px solid black;
 			padding:15px;
+			clear:right;
 		}
 		.beef{
 			margin:10px white;
@@ -40,9 +50,7 @@
 		@media (min-width:992px){
 			.col-lg-1,.col-lg-2,.col-lg-3{
 				float:left;
-				border:2px solid black;
 				}
-			}
 			.col-lg-1{
 				width:40%;
 				}
@@ -52,18 +60,18 @@
 			.col-lg-2{
 				width:40%;
 				}
-			}
 		}
 
 		@media (min-width:768px) and (max-width:991px){
 			.col-md-1{
-				width:33%;
+				width:50%;
+				float:left;
 			}
 			.col-md-2{
-				width:33%;
+				width:50%;
 			}
 			.col-md-3{
-				width=33%;
+				width:100%;
 			}
 		}
 		@media (max-width:767px){
